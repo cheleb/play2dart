@@ -1,12 +1,15 @@
 library sosimple;
 
 import 'dart:html';
+import 'dart:json';
 
 part '_mylib.dart';
 
 void main() {
   
-  
+  MySimpleClass my = new MySimpleClass(query("#ws_console"));
+  my.connect();
+
   
   query("#sample_text_id")
     ..text = "Click me!"
@@ -24,8 +27,7 @@ void reverseText(MouseEvent event) {
   }
   query("#sample_text_id").text = buffer.toString();
   
-  new MySimpleClass().sayHelo();
-}
+ }
 
 
 
