@@ -18,7 +18,7 @@ class MySimpleClass {
     _socket = new WebSocket("ws://127.0.0.1:9000/ws");
     if(_socket != null  ){
       _socket.onOpen.listen((e){
-        _console.appendText("connected to ws\n");
+        _console.text = "connected to ws\n";
         _socket.send('{"username":"zozo", "message":"helo"}');
         _socket.onMessage.listen((m){
            Map map = parse(m.data);
