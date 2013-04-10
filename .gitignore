@@ -17,3 +17,10 @@ dist
 /.cache
 /bin
 /.target/
+app/dart/.buildlog
+app/dart/pubspec.lock
+app/dart/packages/
+app/dart/web/packages
+app/dart/web/out/
+public/packages
+public/out/
