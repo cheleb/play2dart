@@ -1,4 +1,4 @@
-import DartKeys._
+//import DartKeys._
 
 scalaVersion := "2.10.1"
 
@@ -10,6 +10,6 @@ scalacOptions ++= Seq("-target:jvm-1.7","-language:postfixOps")
 
 resolvers += Resolver.file("Local Repository", file("/Users/olivier/projects/scala/Play20/repository/local"))(Resolver.ivyStylePatterns)
 
-DartPlugin.settings
+//DartPlugin.settings
 
 dartWebUIEntryPoints += "testwebui.html"

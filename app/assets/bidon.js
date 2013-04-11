@@ -1,3 +1,3 @@
 function test(a,b) {
-	return a+b + 100
+	return a+b + 1
 }

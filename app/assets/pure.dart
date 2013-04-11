@@ -1,5 +1,5 @@
 class MyClass {
-  num a;
+  num oo;
   
 }
 
