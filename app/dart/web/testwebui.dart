@@ -1,10 +1,10 @@
 import 'dart:async';
 import 'package:web_ui/watcher.dart' as watchers;
 
-String currentTime;
+String currentTime = '';
 
 
-String str;
+String str = '';
 
 void main() {
   var oneSecond = new Duration(seconds:1);
