@@ -4,7 +4,7 @@ This is your new Play 2.1 application
 This file will be packaged with your application, when using `play dist`.
 
 
-You need to export DART_HOME to your dart_sdk installation.
+You need to export DART_SDK to your dart_sdk installation.
 
 Pub dependencies must be installed by hand.
 
