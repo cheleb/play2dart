@@ -14,4 +14,6 @@ resolvers += Resolver.file("Local Repository", file("/Users/olivier/projects/sca
 
 //DartPlugin.settings
 
+dartEntryPoints += "simple.dart"
+
 dartWebUIEntryPoints += "testwebui.html"
