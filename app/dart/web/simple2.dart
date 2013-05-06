@@ -4,20 +4,12 @@ import 'dart:math';
 import 'dart:async';
 
 
-import 'included.dart';
-import 'package:SoSimple/SoSimple.dart';
-
-
 void main() {
  
-
-
   addReverseTextSample();
   
- 
+  
 }
-
-
 
 
 addReverseTextSample() {
