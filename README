@@ -8,7 +8,7 @@ You need to export DART_SDK to your dart_sdk installation.
 
 Pub dependencies must be installed by hand.
 
-cd public
+cd app/dart
 $DART_HOME/bin/pub install
 
 Enjoy.
