@@ -1,3 +1,4 @@
+packages
 logs
 project/project
 project/target
@@ -18,9 +19,6 @@ dist
 /bin
 /.target/
 app/dart/.buildlog
-app/dart/pubspec.lock
-app/dart/packages/
-app/dart/web/packages
 app/dart/web/out/
-public/packages
+app/dart/pubspec.lock
 public/out/
