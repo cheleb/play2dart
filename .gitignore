@@ -19,7 +19,7 @@ dist
 /bin
 /.target/
 app/dart/.buildlog
-app/dart/web/out/
 app/dart/pubspec.lock
-public/out/
 manifest.yml
+app/dart/pubspec.lock
+packages
