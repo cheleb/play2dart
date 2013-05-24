@@ -18,8 +18,7 @@ dist
 /.cache
 /bin
 /.target/
-app/dart/.buildlog
-app/dart/pubspec.lock
+dart/.buildlog
+dart/pubspec.lock
 manifest.yml
-app/dart/pubspec.lock
 packages
