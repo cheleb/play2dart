@@ -1,8 +1,8 @@
 //import DartKeys._
 
-offline := true
+offline := false
 
-scalaVersion := "2.10.1"
+scalaVersion := "2.10.2"
 
 javacOptions ++= Seq("-source", "1.7", "-target", "1.7")
 

@@ -4,6 +4,9 @@ import play.api._
 import play.api.mvc._
 import play.api.libs.iteratee.Iteratee
 import play.api.libs.iteratee.Enumerator
+import scala.concurrent.ExecutionContext.Implicits._
+
+
 
 object Application extends Controller {
   
@@ -20,7 +23,7 @@ object Application extends Controller {
     //	out.+("zozo")
     }
         
-    }.mapDone { _ =>
+    }.map { _ =>
       println("Disconnected")
     }
     
