@@ -18,4 +18,4 @@ dartEntryPoints += "simple.dart"
 
 dartEntryPoints += "simple2.dart"
 
-dartWebUIEntryPoints += "testwebui.html"
+//dartWebUIEntryPoints += "testwebui.html"

@@ -58,7 +58,7 @@ object ConnectionActor {
           //          println("received " + event \ "text")
           //connectionActor ! Message(username, (event \ "text").as[String])
           connectionActor ! message
-        }.mapDone { _ =>
+        }.map { _ =>
           //          println("Done")
           connectionActor ! Quit(username)
         }
