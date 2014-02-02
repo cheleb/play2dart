@@ -6,3 +6,8 @@ dependencies:
   js: any
   route: any
   unittest: any
+transformers:
+- polymer:
+    entry_points:
+    - web/polymer.html
+
