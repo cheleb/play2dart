@@ -12,10 +12,11 @@ scalacOptions ++= Seq("-target:jvm-1.7","-language:postfixOps")
 
 resolvers += Resolver.file("Local Repository", file("/Users/olivier/projects/scala/Play20/repository/local"))(Resolver.ivyStylePatterns)
 
-//DartPlugin.settings
 
 dartEntryPoints += "simple.dart"
 
 dartEntryPoints += "simple2.dart"
 
 //dartWebUIEntryPoints += "testwebui.html"
+
+dartDev := true
