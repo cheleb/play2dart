@@ -1,6 +1,8 @@
 name: SoSimple
 description: A sample web application
 dependencies:
+  polymer: any
   browser: any
   js: any
-  polymer: any
+  route: any
+  unittest: any
