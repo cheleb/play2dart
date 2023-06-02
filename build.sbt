@@ -2,7 +2,7 @@
 
 offline := false
 
-scalaVersion := "2.10.7"
+scalaVersion := "2.13.11"
 
 javacOptions ++= Seq("-source", "1.7", "-target", "1.7")
 
